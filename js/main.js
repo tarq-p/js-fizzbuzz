@@ -20,7 +20,7 @@ for(var i=1;i<=100;i++)
 {
     if(multiple(i,3))
         multipli_3.push(i);
-    if(multiple(i,5))
+    else if(multiple(i,5))
         multipli_5.push(i);
 }
 
